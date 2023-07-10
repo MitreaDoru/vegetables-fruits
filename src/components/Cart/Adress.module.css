@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.adress {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  gap: 10px;
+}
+.adress input {
+  width: 300px;
+  border-radius: 5px;
+  padding: 2px;
+}
+.container .confirm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.confirm button {
+  margin-top: 20px;
+  padding: 5px;
+  height: 25px;
+  background-color: rgb(90, 224, 90);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.adress p {
+  font-size: 10px;
+  color: red;
+}
+.confirm p {
+  margin-top: 20px;
+  margin-right: 40px;
+  color: red;
+}

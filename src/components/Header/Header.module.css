@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  height: 64px;
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+.header .logo {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header .categories {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header .categories div,
+.header .cart {
+  cursor: pointer;
+}
+.header .cart {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+}

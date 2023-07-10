@@ -1,0 +1,54 @@
+.vegetables {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  justify-content: space-around;
+  background-color: bisque;
+}
+.vegetables .info {
+  width: 70%;
+  display: block;
+  align-items: center;
+  gap: 10px;
+}
+.vegetables .info img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.action .price {
+  background-color: rgb(80, 76, 76);
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+.action input {
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.action button {
+  font-size: 15px;
+  padding: 2.5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (min-width: 648px) {
+  .vegetables {
+    width: 600px;
+  }
+  .vegetables .info {
+    display: flex;
+  }
+}

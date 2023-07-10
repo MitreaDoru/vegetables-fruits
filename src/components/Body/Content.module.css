@@ -1,0 +1,52 @@
+.all {
+  height: 100vh;
+}
+.content {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.categories {
+  width: 100%;
+  margin-top: 50px;
+  display: inline-block;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.categories::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (min-width: 648px) {
+  .categories {
+    height: 1000px;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .categories {
+    display: flex;
+    flex-direction: row;
+  }
+  .categories .fruits,
+  .categories .vegetables {
+    display: inline-block;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .categories .fruits::-webkit-scrollbar,
+  .categories .vegetables::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.categories {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.categories div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 2px;
+  border-radius: 10px;
+  font-size: 30px;
+  background-color: aqua;
+  cursor: pointer;
+}
+@media screen and (min-width: 350px) {
+  .categories div {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .categories {
+    display: none;
+  }
+}
