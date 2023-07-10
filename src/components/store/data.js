@@ -27,7 +27,7 @@ const initialState = {
     showCart: false,
     showFruits: true,
     showVegetables: true,
-    showAdress: false,
+    showAddress: false,
     orderConfirmed: false,
     cart: []
 }
@@ -54,8 +54,8 @@ const dataSlice = createSlice({
             state.showFruits = false;
             state.showVegetables = true
         },
-        toggleAdress(state) {
-            state.showAdress = !state.showAdress;
+        toggleAddress(state) {
+            state.showAddress = !state.showAddress;
         },
         toggleOrderConfirmed(state) {
             state.orderConfirmed = !state.orderConfirmed

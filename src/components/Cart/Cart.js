@@ -3,12 +3,12 @@ import styled from './Cart.module.css'
 import { useSelector } from "react-redux/es/hooks/useSelector";
 import { useDispatch } from "react-redux";
 import { dataAction } from "../store/data";
-import Adress from "./Adress";
+import Address from "./Address";
 
 const Cart = () => {
     const dispatch = useDispatch()
     const cartItems = useSelector(state => state.data.cart)
-    const showAdress = useSelector(state => state.data.showAdress)
+    const showAddress = useSelector(state => state.data.showAddress)
 
     let totalPrice = 0;
     cartItems.forEach(item => totalPrice = totalPrice + Number(item.fullPrice))
@@ -34,9 +34,9 @@ const Cart = () => {
             <div className={styled.total}>Total price: {totalPrice} $</div>
             <div className={styled.confirm}>
                 {totalPrice < 50 && <p>The order need to be minimum 50 $ </p>}
-                {!showAdress && totalPrice >= 50 && <button onClick={() => dispatch(dataAction.toggleAdress())}>Confirm</button>}
+                {!showAddress && totalPrice >= 50 && <button onClick={() => dispatch(dataAction.toggleAddress())}>Confirm</button>}
             </div>
-            {showAdress && totalPrice >= 50 && <Adress />}
+            {showAddress && totalPrice >= 50 && <Address />}
         </div>
     )
 }
