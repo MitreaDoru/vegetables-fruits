@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/vegetables-fruits/static/css/main.841f9010.chunk.css",
-    "main.js": "/vegetables-fruits/static/js/main.676a599b.chunk.js",
-    "main.js.map": "/vegetables-fruits/static/js/main.676a599b.chunk.js.map",
+    "main.css": "/vegetables-fruits/static/css/main.7978f482.chunk.css",
+    "main.js": "/vegetables-fruits/static/js/main.9bc5073b.chunk.js",
+    "main.js.map": "/vegetables-fruits/static/js/main.9bc5073b.chunk.js.map",
     "runtime-main.js": "/vegetables-fruits/static/js/runtime-main.a9c93a21.js",
     "runtime-main.js.map": "/vegetables-fruits/static/js/runtime-main.a9c93a21.js.map",
     "static/js/2.fb9de48b.chunk.js": "/vegetables-fruits/static/js/2.fb9de48b.chunk.js",
     "static/js/2.fb9de48b.chunk.js.map": "/vegetables-fruits/static/js/2.fb9de48b.chunk.js.map",
     "index.html": "/vegetables-fruits/index.html",
-    "static/css/main.841f9010.chunk.css.map": "/vegetables-fruits/static/css/main.841f9010.chunk.css.map",
+    "static/css/main.7978f482.chunk.css.map": "/vegetables-fruits/static/css/main.7978f482.chunk.css.map",
     "static/js/2.fb9de48b.chunk.js.LICENSE.txt": "/vegetables-fruits/static/js/2.fb9de48b.chunk.js.LICENSE.txt",
     "static/media/apple.jpg": "/vegetables-fruits/static/media/apple.8913c90a.jpg",
     "static/media/background.jpg": "/vegetables-fruits/static/media/background.cb067f62.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9c93a21.js",
     "static/js/2.fb9de48b.chunk.js",
-    "static/css/main.841f9010.chunk.css",
-    "static/js/main.676a599b.chunk.js"
+    "static/css/main.7978f482.chunk.css",
+    "static/js/main.9bc5073b.chunk.js"
   ]
 }
