@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/vegetables-fruits/static/css/main.841f9010.chunk.css",
+    "main.js": "/vegetables-fruits/static/js/main.676a599b.chunk.js",
+    "main.js.map": "/vegetables-fruits/static/js/main.676a599b.chunk.js.map",
+    "runtime-main.js": "/vegetables-fruits/static/js/runtime-main.a9c93a21.js",
+    "runtime-main.js.map": "/vegetables-fruits/static/js/runtime-main.a9c93a21.js.map",
+    "static/js/2.fb9de48b.chunk.js": "/vegetables-fruits/static/js/2.fb9de48b.chunk.js",
+    "static/js/2.fb9de48b.chunk.js.map": "/vegetables-fruits/static/js/2.fb9de48b.chunk.js.map",
+    "index.html": "/vegetables-fruits/index.html",
+    "static/css/main.841f9010.chunk.css.map": "/vegetables-fruits/static/css/main.841f9010.chunk.css.map",
+    "static/js/2.fb9de48b.chunk.js.LICENSE.txt": "/vegetables-fruits/static/js/2.fb9de48b.chunk.js.LICENSE.txt",
+    "static/media/apple.jpg": "/vegetables-fruits/static/media/apple.8913c90a.jpg",
+    "static/media/background.jpg": "/vegetables-fruits/static/media/background.cb067f62.jpg",
+    "static/media/banana.jpg": "/vegetables-fruits/static/media/banana.8b0734f0.jpg",
+    "static/media/broccoli.jpg": "/vegetables-fruits/static/media/broccoli.39827b5c.jpg",
+    "static/media/cauliflower.jpg": "/vegetables-fruits/static/media/cauliflower.1f9b78ce.jpg",
+    "static/media/eggplant.jpg": "/vegetables-fruits/static/media/eggplant.43110f27.jpg",
+    "static/media/grapefruit.jpg": "/vegetables-fruits/static/media/grapefruit.3f5218fb.jpg",
+    "static/media/green beans.jpg": "/vegetables-fruits/static/media/green beans.e1e04f57.jpg",
+    "static/media/mango.jpg": "/vegetables-fruits/static/media/mango.88c7a3f7.jpg",
+    "static/media/orange.jpg": "/vegetables-fruits/static/media/orange.39d99732.jpg",
+    "static/media/potato.jpg": "/vegetables-fruits/static/media/potato.db358b58.jpg",
+    "static/media/tomato.jpg": "/vegetables-fruits/static/media/tomato.b4385831.jpg",
+    "static/media/watermelon.jpg": "/vegetables-fruits/static/media/watermelon.3d97c4a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9c93a21.js",
+    "static/js/2.fb9de48b.chunk.js",
+    "static/css/main.841f9010.chunk.css",
+    "static/js/main.676a599b.chunk.js"
+  ]
+}
